@@ -1,0 +1,45 @@
+@keyframes example{
+    from {width: 0px;
+        height: 0px;}
+    to {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+body{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0077b6;
+    border-bottom: 6px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 2px 2px;
+}
+
+.avatar{
+    animation-name: example;
+    animation-duration: 4s;
+    width: 150px;
+    height: 150px;
+}
+
+.name:hover{
+    color: azure;
+}
+
+.job:hover{
+    color: azure;
+}
+
+.location:hover{
+    color: azure;
+}
